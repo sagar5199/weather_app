@@ -16,7 +16,7 @@ var argv=yargs.options({
 geocode.geocodeAddress(argv.address,(errorMessage,result)=>{
   if(errorMessage)
   {
-    console.log(errorMessage);
+    console.log(errorMessage+"err");
   }else {
 
 console.log(result)
